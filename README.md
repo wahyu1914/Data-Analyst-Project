@@ -1,5 +1,4 @@
 # Data Analisis Penjualan Rumah di Amerika Serikat
-Ini adalah repositori untuk proyek analisis data yang berfokus pada data penjualan rumah di Amerika Serikat. Proyek ini menggunakan dataset komprehensif untuk menganalisis tren pasar properti dan memahami faktor-faktor yang memengaruhi harga rumah.
 
 ## Deskripsi Dataset:
 Dataset ini merupakan kumpulan data sintetis yang berisi 3.000 listing properti residensial. Data ini dimodelkan menyerupai data penjualan rumah sungguhan di A.S. (dalam format ala Zillow) dan dirancang khusus untuk analisis real estat, machine learning, visualisasi data, serta praktik web scraping.
