@@ -2,7 +2,9 @@
 Ini adalah repositori untuk proyek analisis data yang berfokus pada data penjualan rumah di Amerika Serikat. Proyek ini menggunakan dataset komprehensif untuk menganalisis tren pasar properti dan memahami faktor-faktor yang memengaruhi harga rumah.
 
 ## Deskripsi Dataset:
-Dataset ini berisi informasi detail mengenai properti yang telah dijual di berbagai lokasi di Amerika Serikat. Tujuannya adalah untuk menyediakan data relevan terkait transaksi penjualan rumah, memungkinkan analisis mendalam tentang tren pasar, perbandingan harga, dan pengembangan model prediktif.
+Dataset ini merupakan kumpulan data sintetis yang berisi 3.000 listing properti residensial. Data ini dimodelkan menyerupai data penjualan rumah sungguhan di A.S. (dalam format ala Zillow) dan dirancang khusus untuk analisis real estat, machine learning, visualisasi data, serta praktik web scraping.
+
+Setiap baris merepresentasikan properti unik dan mencakup 16 fitur utama yang umum digunakan oleh agen real estat, investor, dan analis. Data ini mencakup berbagai negara bagian dan kota di A.S., dengan nilai-nilai realistis untuk harga, luas area, jumlah kamar tidur/mandi, tipe properti, dan banyak lagi.
 
 ## Sumber Data:
 Dataset ini diperoleh dari platform Kaggle. Dataset dapat ditemukan pada link berikut: 
@@ -16,51 +18,51 @@ Dataset ini memiliki kolom-kolom berikut, yang memberikan detail tentang setiap 
 
 * **Address**: Alamat lengkap properti. 
 
- **`City`**y: Kota lokasi properti. 
+ **City**: Kota lokasi properti. 
 
-Zipcode: Kode pos properti. 
+* **Zipcode**: Kode pos properti. 
 
-State: Negara bagian lokasi properti (misal: CA, NY, TX, dll.). 
+* **State**: Negara bagian lokasi properti (misal: CA, NY, TX, dll.). 
 
-Bedrooms: Jumlah kamar tidur di properti (format "X bds", perlu diekstrak angka). 
+* **Bedrooms**: Jumlah kamar tidur di properti (format "X bds", perlu diekstrak angka). 
 
-Bathrooms: Jumlah kamar mandi di properti (format "X ba", perlu diekstrak angka). 
+* **Bathrooms**: Jumlah kamar mandi di properti (format "X ba", perlu diekstrak angka). 
 
-Area (Sqft): Luas area dalam kaki persegi (sqft) (format "X sqft", perlu diekstrak angka). 
-
-
-Lot Size: Ukuran luas tanah dalam kaki persegi (sqft) (format "X sqft", perlu diekstrak angka). 
+* **Area (Sqft)**: Luas area dalam kaki persegi (sqft) (format "X sqft", perlu diekstrak angka). 
 
 
-Year Built: Tahun pembangunan properti. 
+* **Lot Size**: Ukuran luas tanah dalam kaki persegi (sqft) (format "X sqft", perlu diekstrak angka). 
 
 
-Days on Market: Jumlah hari properti berada di pasar. 
+* **Year Built**: Tahun pembangunan properti. 
 
 
-Property Type: Jenis properti (misal: Townhouse, Apartment, Single Family, Multi-Family, Condo). 
+* **Days on Market**: Jumlah hari properti berada di pasar. 
 
 
-MLS ID: ID Multiple Listing Service properti. 
+* **Property Type**: Jenis properti (misal: Townhouse, Apartment, Single Family, Multi-Family, Condo). 
 
 
-Listing Agent: Nama agen properti yang listing properti tersebut. 
+* **MLS ID**: ID Multiple Listing Service properti. 
 
 
-Status: Status penjualan properti (misal: For Sale, Sold, Pending). 
+* **Listing Agent**: Nama agen properti yang listing properti tersebut. 
 
 
-Listing URL: Tautan URL ke listing properti (kemungkinan besar dari Zillow atau sejenisnya). 
+* **Status**: Status penjualan properti (misal: For Sale, Sold, Pending). 
+
+
+* **Listing URL**: Tautan URL ke listing properti
 
 ## Tujuan dan Penggunaan Potensial:
 Dataset ini dapat dimanfaatkan untuk berbagai tujuan analisis, antara lain:
 
-Analisis Harga Properti: Mengidentifikasi faktor-faktor yang paling berpengaruh terhadap harga jual properti.
+* **Eksplorasi Data Analisis (EDA)**: Untuk memahami distribusi dan hubungan antar variabel serta mendapatkan insight awal pasar real estat AS.
 
-Prediksi Harga Rumah: Membangun model machine learning untuk memprediksi harga rumah berdasarkan karakteristik yang ada.
+* **Pelatihan Model Regresi/Klasifikasi**: Membangun model machine learning untuk memprediksi harga rumah atau mengklasifikasikan tipe properti.
 
-Tren Pasar Real Estat: Menganalisis tren penjualan berdasarkan kota, negara bagian, tipe properti, atau tahun pembangunan.
+* **Rekayasa Fitur dan Pra-pemrosesan**: Latihan membersihkan, mengubah, dan membuat fitur baru dari data mentah.
 
-Segmentasi Pasar: Mengidentifikasi segmen pasar properti yang berbeda berdasarkan fitur-fitur rumah.
+* **Dashboard Real Estat dan Mockup Aplikasi Web**: Membuat visualisasi interaktif atau prototipe aplikasi.
 
-Eksplorasi Data: Memahami distribusi dan hubungan antar variabel untuk mendapatkan insight awal pasar real estat AS.
+* **Latihan dengan Pustaka Data**: Berlatih menggunakan alat seperti BeautifulSoup, Pandas, atau Power BI untuk memanipulasi dan menganalisis data.
