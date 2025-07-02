@@ -14,7 +14,7 @@ Dataset ini memiliki kolom-kolom berikut, yang memberikan detail tentang setiap 
 
 * Price: Harga penjualan properti. 
 
-Address: Alamat lengkap properti. 
+* **'Address'**: Alamat lengkap properti. 
 
 City: Kota lokasi properti. 
 
