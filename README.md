@@ -12,11 +12,11 @@ https://www.kaggle.com/datasets/abdulwadood11220/usa-house-sales-data
 ## Kolom Data:
 Dataset ini memiliki kolom-kolom berikut, yang memberikan detail tentang setiap properti:
 
-* Price: Harga penjualan properti. 
+* **Price**: Harga penjualan properti. 
 
-* **'Address'**: Alamat lengkap properti. 
+* **Address**: Alamat lengkap properti. 
 
-City: Kota lokasi properti. 
+ **`City`**y: Kota lokasi properti. 
 
 Zipcode: Kode pos properti. 
 
