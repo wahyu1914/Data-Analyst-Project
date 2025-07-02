@@ -1,5 +1,8 @@
-Deskripsi Dataset: Data Penjualan Rumah di Amerika Serikat (us_house_Sales_data.csv)
-Dataset us_house_Sales_data.csv menyajikan kumpulan data komprehensif mengenai properti yang dijual di berbagai lokasi di Amerika Serikat. Dataset ini bertujuan untuk menyediakan informasi detail yang relevan dengan transaksi penjualan rumah, memungkinkan analisis tren pasar properti, perbandingan harga, dan pengembangan model prediktif.
+# Data Analisis Penjualan Rumah di Amerika Serikat
+Ini adalah repositori untuk proyek analisis data yang berfokus pada data penjualan rumah di Amerika Serikat. Proyek ini menggunakan dataset komprehensif untuk menganalisis tren pasar properti dan memahami faktor-faktor yang memengaruhi harga rumah.
+
+# Deskripsi Dataset:
+Dataset ini berisi informasi detail mengenai properti yang telah dijual di berbagai lokasi di Amerika Serikat. Tujuannya adalah untuk menyediakan data relevan terkait transaksi penjualan rumah, memungkinkan analisis mendalam tentang tren pasar, perbandingan harga, dan pengembangan model prediktif.
 
 Sumber Data:
 Dataset ini diperoleh dari platform Kaggle. Anda dapat menemukan dataset aslinya dan informasi lebih lanjut di: 
